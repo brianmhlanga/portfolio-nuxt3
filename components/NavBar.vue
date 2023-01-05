@@ -25,7 +25,7 @@
           <p
             class="hidden lg:block text-3xl font-bold ml-2 logoFont tracking-widest"
           >
-           B. MHLANGA.
+           BRIAN. MHLANGA.
           </p>
         </button>
       </Transition>

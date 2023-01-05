@@ -10,67 +10,33 @@
             <p
               class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
               style="word-spacing: 5px"
-            >
-              Previously I worked as a full-time mechanical engineer in an M&E
-              consultancy firm. At first, I thought I loved doing my job. As
-              time goes by, I realize that I don't see myself wanting to
-              continue working in this field in the future. I told myself is
-              either I do something about it to change my life or do nothing
-              about it.
+            > 
+              From August 2019 when I graduated with a Bachelor of Science Honors 
+              Degree in Information Technology, I have occupied roles ranging from, 
+              Graphics Designing Intern, Junior Software Developer, Web Designer, 
+              Web Developer upto my current role which is a Full-Stack Software Developer.
+
+              I'm also currently developing an intrest in Data Science and Artificial Intelligence 
+              which are areas i would llike to explore in the future.
+            </p>
+            <p
+              class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
+              style="word-spacing: 5px"
+            > 
+              With about 3 to 4 years experience working with basic front-end technologies like HTML, CSS
+              and CSS frameworks like bootstrap, i decided to explore more technologies like JavaScript,
+              I took the FreeCodeCamp certification programmes, and took the JavaScript Algorithms and Data Structures 
+              Certification, Back-End Development Certification.
+              
+              From that onwards, My journey in Full-Stack software development began.
             </p>
             <p
               class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
               style="word-spacing: 5px"
             >
-              After giving some thought to it, I decided to do something about
-              it. At that moment, I came to remember that I was interested in
-              coding when I was learning C programming during my first-year
-              degree. From that onwards, My journey in coding begins.
-            </p>
-            <p
-              class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
-              style="word-spacing: 5px"
-            >
-              I started by self-learning Python following the guides from a
-              book, titled "Learn Python 3 The Hard Way" by Zed A. Shaw. In the
-              beginning, It started well. I learned Object-Oriented Programming
-              and created a simple option choosing game. However, I notice that
-              this will not take me far enough. I did some research afterward
-              and found that web development suits my interest since I want to
-              build personal projects.
-            </p>
-            <p
-              class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
-              style="word-spacing: 5px"
-            >
-              When I saw an advertisement from The Hacker Collective (THC)
-              promoting their self-learning program for web development, the
-              next thing that came to mind is let's try this and see how it
-              goes. My coding journey continues. I was coding every day,
-              sometimes late at night, and on weekends while still having my
-              full-time job.
-            </p>
-            <p
-              class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
-              style="word-spacing: 5px"
-            >
-              After six months, the co-founder from THC approached me. He asked
-              whether I would be interested to take up an internship in their
-              company. I accepted their offer and worked as a front-end web
-              developer in
-              <a
-                class="font-bold text-indigo-600 hover:underline"
-                href="https://hackercollective.co/teams"
-                >The Hacker Collective</a
-              >&nbsp;for a period of time.
-            </p>
-            <p
-              class="mt-4 text-gray-600 lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl 3xl:max-w-3xl"
-              style="word-spacing: 5px"
-            >
-              Currently, I am working as a front-end web developer in
-              <a class="font-bold hover:underline" href="https://limitless.my/"
-                >Limitless Technology</a
+              Currently, I am working as a full-stack software developer for
+              <a class="font-bold hover:underline" href="https://petalmafrica.com/"
+                >Petalm Africa Holdings</a
               >.
             </p>
           </div>
@@ -78,7 +44,7 @@
           <div class="flex items-center mt-6 -mx-2">
             <a
               class="mx-2"
-              href="https://www.instagram.com/yzpo/"
+              href="#"
               aria-label="Instagram"
               target="blank"
             >
@@ -87,7 +53,7 @@
 
             <a
               class="mx-2"
-              href="https://www.facebook.com/yizhipo"
+              href="https://www.facebook.com/brian.mhlanga.35"
               aria-label="Facebook"
               target="blank"
             >
@@ -96,7 +62,7 @@
 
             <a
               class="mx-2"
-              href="https://www.linkedin.com/in/yzpo/"
+              href="https://www.linkedin.com/in/brian-mhlanga-009622126/"
               aria-label="Linkden"
               target="blank"
             >
@@ -105,7 +71,7 @@
 
             <a
               class="mx-2"
-              href="https://github.com/eazypau"
+              href="https://github.com/brianmhlanga"
               aria-label="Github"
               target="blank"
             >
@@ -119,7 +85,7 @@
             <div class="profileImgContainer">
               <img
                 class="bg-white object-cover object-top rounded-full group-hover:grayscale transition-all ease-out duration-300"
-                src="/profile-pics/profile.webp"
+                src="/profile-pics/brianpic.jpg"
                 width="350"
                 height="350"
                 alt="profile image"

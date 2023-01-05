@@ -19,7 +19,7 @@
       <div>
         <MyTransition>
           <h1 v-if="!loading" class="text-white flex justify-center">
-            Hi there
+            Hi Guys
             <span>
               <IconsHiIcon class="ml-3 p-1" />
             </span>
@@ -33,11 +33,11 @@
       </div>
       <div class="mt-2">
         <MyTransition :delay="Number(1.3)">
-          <h1 v-if="!loading" class="tracking-wide text-white">A Frontend</h1>
+          <h1 v-if="!loading" class="tracking-wide text-white">A Full Stack</h1>
         </MyTransition>
         <MyTransition :delay="Number(1.5)">
           <h1 v-if="!loading" class="py-2 tracking-wide text-white">
-            Web Developer
+            Software Developer
           </h1>
         </MyTransition>
       </div>
@@ -45,14 +45,13 @@
   </header>
 </template>
 <script setup>
-import { ref, onMounted } from "vue";
-let loading = ref(true);
-onMounted(() => {
-  loading.value = false;
-});
-</script>
-<style lang="scss" scoped>
-.headerHeight {
-  height: calc(100vh - 30px);
-}
+  let loading = ref(true);
+  onMounted(() => {
+    loading.value = false;
+  });
+  </script>
+  <style lang="scss" scoped>
+  .headerHeight {
+    height: calc(100vh - 30px);
+  }
 </style>
