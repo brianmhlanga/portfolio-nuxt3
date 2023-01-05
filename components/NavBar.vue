@@ -14,18 +14,18 @@
           aria-label="Website Logo"
           @click="goToHome"
         >
-          <img
+          <!-- <img
             :src="logo"
             width="40"
             height="40"
             alt="favicon"
             class="w-10 h-10"
             loading="lazy"
-          />
+          /> -->
           <p
             class="hidden lg:block text-3xl font-bold ml-2 logoFont tracking-widest"
           >
-            YZ.
+           B. MHLANGA.
           </p>
         </button>
       </Transition>

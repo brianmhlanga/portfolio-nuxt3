@@ -27,7 +27,7 @@
         </MyTransition>
         <MyTransition :delay="Number(1.1)">
           <h1 v-if="!loading" class="mt-1 tracking-wide text-white">
-            My name is Po
+            My name is Brian
           </h1>
         </MyTransition>
       </div>
