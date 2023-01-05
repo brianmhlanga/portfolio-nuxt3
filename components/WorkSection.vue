@@ -1,7 +1,7 @@
 <template>
   <section class="pt-28 pb-20">
     <h2 class="subTitle mb-5 lg:mb-10 px-3 subFontFamily workTitle">
-      Projects that I Worked On
+      Projects that I Was Part Of
     </h2>
     <div class="workCardLane">
       <CardsWorkCard

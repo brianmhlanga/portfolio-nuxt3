@@ -12,7 +12,6 @@
       </div>
       <Skills id="skills" :skill-set="skillSet" />
       <div id="projects"></div>
-      <ProjectSection :projects="projects" />
       <WorkSection id="works" :working-projects="workingProjects" />
       <HobbySection :hobbies="hobbies" />
       <div class="bg-white">
@@ -66,20 +65,18 @@ const skillSet = [
   "JavaScript",
   "Vue",
   "Nuxt",
-  "React",
   "TypeScript",
   "Tailwind",
   "Shopify",
-  "Liquid",
   "jQuery",
   "SASS",
+  "PrestaShop",
   "Bootstrap",
-  "Firebase",
   "Git",
 ];
 const hobbies = [
   {
-    title: "Drink Black tea",
+    title: "Watching the news",
     text: "Best way to start the morning",
     classBg: "bg-tea",
   },
@@ -102,12 +99,12 @@ const hobbies = [
 const projects = [
   {
     isReverse: false,
-    title: "Eazy Chat App",
+    title: "Oacey ERP",
     titleColor: "text-white",
     filterColor: "bg-slate-900 bg-opacity-60",
     imageUrl: "/project-ss/chatapp-ss.webp",
     description:
-      "A scalable real-time chat app designed to send and receive messages from users.",
+      "An enterprise resource planning tool for Petalm Africa Group",
     techStack: [
       "Vue",
       "TS",
@@ -208,184 +205,161 @@ const projects = [
 const workingProjects = [
   {
     image: {
-      src: "/work/LVLY_logo.jpg",
+      src: "/work/ok gxc.png",
       alt: "LVLY",
       width: "410",
       height: "117",
     },
     imageShowcase: [
       {
-        src: "/work/LVLY-productpage.png",
+        src: "/work/ok gxc.png",
         alt: "LVLY product page",
         width: "726",
         height: "460",
       },
-      {
-        src: "/work/LVLY-homepage.png",
-        alt: "LVLY home page",
-        width: "726",
-        height: "460",
-      },
-      {
-        src: "/work/LVLY-cartpage.png",
-        alt: "LVLY cart page",
-        width: "726",
-        height: "460",
-      },
     ],
-    heading: "LVLY",
+    heading: "Ok Grand Challenge",
     // description: `LVLY, Bloomeroo, and Flowerchimp are e-commerce websites for selling flower products.
     // This was created using Shopify Liquid, HTML, CSS, and Javascript. Customers can choose their desired
     // delivery date and timeslot for their order. It allows customers to select their desired flower products
     // , add-on products, and gifts for various occasions. The online stores are available mainly in Southeast
     // Asia and Australia.`,
-    description: `LVLY is an online flower shop that offers beautiful, fragrant, fresh flowers for any occasion.
-    With its wide selection of blooms, LVLY is the perfect choice for those who are looking for a unique and special
-    way to show their love and appreciation. From classic roses to exotic orchids, LVLY has something for everyone.
-    Customers can choose from a variety of bouquets, vases and boxes to make sure that their gift is as special and
-    unique as they are. With same-day delivery options,  LVLY ensures that its customers can get the perfect
-    arrangement for any occasion.`,
+    description: `Ok Grand Challenge is a promotion by one of Zimbabwe biggest groceries chain store which is
+    hosted annually, was involved in the development of the automated raffle system for the Grand Draw`,
     urls: [
       {
         name: "LVLY AU",
-        link: "https://www.lvly.com.au/",
+        link: "#",
       },
       {
         name: "LVLY MY",
-        link: "https://www.lvly.my/",
+        link: "#",
       },
     ],
   },
   {
     image: {
-      src: "/work/FC-MY.jpg",
+      src: "/work/delta.png",
       alt: "Flowerchimp",
       width: "410",
       height: "205",
     },
     imageShowcase: [
       {
-        src: "/work/FC-productpage.png",
+        src: "/work/delta1.png",
         alt: "Flowerchimp product page",
         width: "726",
         height: "460",
       },
       {
-        src: "/work/FC-homepage.png",
+        src: "/work/delta2.png",
         alt: "Flowerchimp home page",
         width: "726",
         height: "460",
       },
       {
-        src: "/work/FC-cartpage.png",
+        src: "/work/delta1.png",
         alt: "Flowerchimp cart page",
         width: "726",
         height: "460",
       },
     ],
-    heading: "Flowerchimp",
+    heading: "Delta Beverages Online Store",
     // description: `LVLY, Bloomeroo, and Flowerchimp are e-commerce websites for selling flower products.
     // This was created using Shopify Liquid, HTML, CSS, and Javascript. Customers can choose their desired
     // delivery date and timeslot for their order. It allows customers to select their desired flower products
     // , add-on products, and gifts for various occasions. The online stores are available mainly in Southeast
     // Asia and Australia.`,
-    description: `Flowerchimp is an online flower shop that offers a wide selection of beautiful bouquets and
-    arrangements to suit any occasion. Customers can choose from a variety of flowers, vases and boxes to make
-    sure their gift is special and unique. With same-day delivery options, Flowerchimp ensures their customers
-    can get the perfect arrangement for any event. From classic roses to exotic orchids, Flowerchimp has something
-    for everyone and is the perfect choice for those who want to show their love and appreciation.`,
+    description: `Delta Beverages Online Store is an online e-commerce platform for
+    Delta Beverages Zimbabwe, I was involved in the development process as a Front-End Developer during
+    my time at Contitouch Technologies`,
     urls: [
       {
-        name: "Flowerchimp MY",
-        link: "https://www.flowerchimp.com/",
+        name: "Delta Beverages Online Store",
+        link: "https://deltaonline.co.zw/",
       },
     ],
   },
   {
     image: {
-      src: "/work/BR_Logo.jpg",
+      src: "/work/medorange.png",
       alt: "Bloomeroo",
       width: "410",
       height: "82",
     },
     imageShowcase: [
       {
-        src: "/work/BL-productpage.png",
+        src: "/work/med1.png",
         alt: "Bloomeroo product page",
         width: "726",
         height: "460",
       },
       {
-        src: "/work/BL-homepage.png",
+        src: "/work/med2.png",
         alt: "Bloomeroo home page",
         width: "726",
         height: "460",
       },
       {
-        src: "/work/BL-cartpage.png",
+        src: "/work/med3.png",
         alt: "Bloomeroo cart page",
         width: "726",
         height: "460",
       },
     ],
-    heading: "Bloomeroo",
+    heading: "Oacey ERP",
     // description: `LVLY, Bloomeroo, and Flowerchimp are e-commerce websites for selling flower products.
     // This was created using Shopify Liquid, HTML, CSS, and Javascript. Customers can choose their desired
     // delivery date and timeslot for their order. It allows customers to select their desired flower products
     // , add-on products, and gifts for various occasions. The online stores are available mainly in Southeast
     // Asia and Australia.`,
-    description: `Bloomeroo is an e-commerce website that specializes in selling fresh flowers and providing same-day
-    delivery in Australia. The company strives to provide customers with the best selection of flowers, from traditional
-    roses to unique tropical and exotic blooms. Our same-day delivery service ensures that no matter where you are in
-    the country, you can get the perfect bouquet delivered to your door. With our wide selection, fast delivery, and
-    exceptional customer service, Bloomeroo is the perfect place to find the perfect floral gift for any occasion.`,
+    description: `MedOrange is one of the leading e-commerce sites for pharmaceutical products in Zimbabwe,
+    I was involved in the development process as a Front-End Developer at Contitouch Technologies a software development company in Zimbabwe`,
     urls: [
       {
-        name: "Bloomeroo",
-        link: "https://www.bloomeroo.com.au/",
+        name: "MedOrange Online Store",
+        link: "https://www.medorange.com/",
       },
     ],
   },
   {
     image: {
-      src: "/work/thc-logo.webp",
+      src: "/work/oacey.png",
       alt: "The Hacker Collection Website",
       width: "62",
       height: "65",
     },
     imageShowcase: [
       {
-        src: "/work/THC-startuppage.png",
+        src: "/work/oacey1.png",
         alt: "The Hacker Collective startup page",
         width: "726",
         height: "460",
       },
       {
-        src: "/work/THC-homepage.png",
+        src: "/work/oacey2.png",
         alt: "The Hacker Collective home page",
         width: "726",
         height: "460",
       },
       {
-        src: "/work/THC-invest.png",
+        src: "/work/oacey1.png",
         alt: "The Hacker Collective invest page",
         width: "726",
         height: "460",
       },
     ],
-    heading: "The Hacker Collection Website",
+    heading: "Oacey ERP",
     // description: `A landing page website to display company information, businesses,
     // programs, etc. This was created using Vue, Nuxt3, TailwindCSS,
     // Javascript, and Headless UI.`,
-    description: `The Hacker Collection (THC) is an innovative landing page website that offers a comprehensive
-    overview of a company's mission, products, and services. With a modern and user-friendly design, THC offers
-    an intuitive way to showcase a company's offerings and provides visually appealing and easy-to-understand
-    information. THC also offers a number of tools, such as a contact form, a blog, and registration forms, to
-    help customers interact with the company in a meaningful way.`,
+    description: `Oacey ERP is an enterprise resource planning tool currently under development
+    by Petalm Africa Group, it has modules ranging from loan management, leave management, timesheet management, perfomance management and Employee Management and 
+    I have been involved in the project as a Full Stack software developer.`,
     urls: [
       {
-        name: "THC Website",
-        link: "https://hackercollective.co/",
+        name: "Oacey",
+        link: "#",
       },
     ],
   },
